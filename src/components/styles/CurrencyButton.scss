@@ -1,0 +1,17 @@
+.currency-button {
+  width: 5rem;
+  height: 3rem;
+  background-color: #0d2f52;
+  color: #84c251;
+  font-weight: bold;
+  border: none;
+  outline: none;
+  &:hover {
+    background-color: #84c251;
+    color: #0d2f52;
+  }
+}
+.active {
+  background-color: #84c251;
+  color: #0d2f52;
+}

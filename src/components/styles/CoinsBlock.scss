@@ -1,0 +1,28 @@
+.currency-block-wrapper {
+  display: flex;
+  justify-content: space-around;
+  width: 250px;
+  background-color: #0d2f52;
+  padding: 20px;
+  font-weight: 700;
+  &:hover {
+    background-color: #173a5f;
+  }
+}
+.active-block {
+  background-color: #173a5f;
+}
+.curr-face {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  span {
+    margin-top: 5%;
+  }
+}
+.curr-values-container {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  color: #729fe1;
+}

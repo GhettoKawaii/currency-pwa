@@ -65,6 +65,18 @@ input[type="number"]::-webkit-outer-spin-button {
     }
   }
   .buttons-block {
-    width: 40%;
+    width: 80%;
+  }
+  .volume {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    label {
+      margin-right: 0px;
+      margin-bottom: 10px;
+    }
+    input {
+      width: 100%;
+    }
   }
 }
